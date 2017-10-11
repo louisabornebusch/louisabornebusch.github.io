@@ -1,0 +1,122 @@
+body {
+	/*background-image: url('http://cdn-image.travelandleisure.com/sites/default/files/styles/1600x1000/public/1487715885/HEADER-Facebook-Iceland-ic0217.jpg?itok=s_gcMYow');*/
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+h1 {
+	font-size: 100px;
+	font-family: sans-serif;
+	font-weight: bold;
+	text-align: center;
+	color: #f47442;
+	margin-top: 120px;
+	text-shadow: 2px 2px #ce5729;
+	letter-spacing: 8px;
+}
+
+h2 {
+	font-size: 24px;
+	font-family: sans-serif;
+	text-align: center;
+	color: black;
+	margin-top: 0px;
+}
+
+h3 {
+	font-size: 50px;
+	font-family: sans-serif;
+	font-weight: bold;
+	text-shadow: 2px 2px #ce5729;
+	float: left;
+	position: absolute;
+	text-align: left;
+	color: #f47442;
+	margin-top: 120px;
+	margin-left: 100px;
+}
+
+p {
+	font-size: 20px;
+	font-family: sans-serif;
+	font-weight: thin;
+	float: left;
+	position: absolute;
+	text-align: left;
+	color: white;
+	margin-top: 200px;
+	margin-left: 100px;
+	width: 33%;
+}
+
+.go2 {
+	float: left;
+	position: absolute;
+	text-align: left;
+	margin-top: 450px;
+	margin-left: 100px;
+	font-weight: bold;
+}
+
+.go3 {
+	float: left;
+	position: absolute;
+	text-align: left;
+	margin-top: 400px;
+	margin-left: 100px;
+	font-weight: bold;
+}
+
+.go4 {
+	float: left;
+	position: absolute;
+	text-align: left;
+	margin-top: 350px;
+	margin-left: 100px;
+	font-weight: bold;
+}
+
+
+.back {
+	float: right;
+	text-align: right;
+	margin-right: 100px;
+	margin-top: 500px;
+	text-shadow: 4px 4px #ce5729;
+}
+
+a {
+	font-size: 20px;
+	font-family: sans-serif;
+	font-weight: thin;
+	color: #db693d;
+	padding: 0px;
+
+}
+
+a:link {
+    text-decoration: none;
+}
+
+button {
+	border: none;
+    background-color: white;
+    padding: 10px;
+    font-size: 20px;
+	font-family: sans-serif;
+	font-weight: thin;
+	color: #db693d;
+	border-radius: 8px;
+
+}
+
+button:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+
+
+.menu {
+	text-align: center;
+}
