@@ -1,120 +1,197 @@
 <!DOCTYPE html>
 <html>
-    <head>
-    <link rel="stylesheet" type="text/css" href="style.css">
-    
-        <!-- Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Open+Sans+Condensed:300|PT+Sans+Narrow|Poiret+One" rel="stylesheet">
 
-    <link rel="icon" href="favicon.ico" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <script             src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">
-    </script>
- 
-<!-- Global site tag (gtag.js) - Google Analytics -->
-    <script 
-        async src="https://www.googletagmanager.com/gtag/js?id=UA-108178843-1">
-    </script>
-<!--    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-        gtag('config', 'UA-108178843-1');   
-    </script>
--->
-        
-<title>Louisa Bornebusch</title>
-
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS GRIDS</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
 </head>
-    <body>
 
-        
-        
-        
+<body>
 
-<!-- Section 1 -->        
-    <section id="section01" class="demo">
-    
-        <h1>I am Louisa Bornebusch, an economist currently studying Digital Data Strategy at Hyper Island</h1>
-            <a href="#section02"><span></span>Portfolio</a>
-    </section>
-    
-<!-- Section 2 -->
-    <section id="section02" class="demo">
-        
-        <h1>Project 1</h1>
-            <a href="#section03"><span></span>Scroll</a>
-    </section>
-    
-<!-- Section 3 -->
-    <section id="section03" class="demo">
-        
-        <h1>Project 2</h1>
-            <a href="#section04"><span></span>Scroll</a>
-    </section>
-    
-<!-- Section 4 -->   
-    <section id="section04" class="demo">
-        
-        <h1>Project 3</h1>
-            <a href="#section05"><span></span>Scroll</a>
-    </section>
-    
-<!-- Section 5 -->
-    <section id="section05" class="demo">
-        
-        <h1>Project 4</h1>
-            <a href="#section06"><span></span>Scroll</a>
-    </section>
-    
-<!-- Section 6 -->    
-    <section id="section06" class="demo">
-       
-        <h1>Project 5</h1>
-            <a href="#section07"><span></span>Scroll</a>
-    </section>
-    
-  <!-- Section 7 -->  
-    <section id="section07" class="demo">
-        
-        <h1>Project 6</h1>
-            <a href="#section08"><span></span><span></span><span></span>Scroll</a>
-    </section>
-    
- <!-- Section 8 -->   
-    <section id="section08" class="demo">
-        
-        <h1>Project 7</h1>
-            <a href="#section09"><span></span>Scroll</a>
-    </section>
-    
- <!-- Section 9 -->   
-    <section id="section09" class="demo"> 
-        
-        <h1>Project 8</h1>
-            <a href="#section10"><span></span>Scroll</a>
-    </section>
-    
- <!-- Section 10 -->   
-    <section id="section10" class="demo">
-        
-        <h1>Project 9</h1>
-            <a href="#thanks"><span></span>Scroll</a>
-    </section>
-    
-    <section id="thanks">
-      <div>
-        <h2>Thanks!</h2>
-            <p><a href="#section01"> Go to the top </a></p> 
-      </div>
-    </section>
 
+    <!-- HEADER SECTION -->
+    <header>
+        <!-- <img class="logo" src="img/L.png" alt="Creative inc. logo"> -->
         
+           <nav>
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">Work</a></li>
+                <li><a class="title" href="">Portfolio</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Contact</a></li>
+            </ul>
+        </nav> 
         
-        
-         
-          <script src='https://code.jquery.com/jquery-3.1.0.min.js'></script>
-          <script src="script.js"></script>    
-        </body> 
+    </header>
+
+   
+    <div id="container">
+        <div class="header">
+            <h4 id="title-top"></h4>
+        </div>
+
+        <div class="row">
+            <div class="content">
+
+                <div class="left">
+                    <h4 id="title-left">Louisa Bornebusch</h4>
+                </div>
+                <div class="middle" id="middle-home"></div>
+                <div class="right">
+                    <h4 id="title-right">Data Analyst</h4>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- <div class="footer">
+            <h4>space</h4>
+        </div> -->
+    </div>
+
+   
+    <!-- PORTFOLIO SECTION -->
+    <div class="section" id="section-portfolio">
+        <section class="portfolio">
+            <h1 class="title" id="title-middle">----- work</h1>
+
+            <!-- portfolio item 01 -->
+            <figure class="port-item">
+                <img src="img/casall-logo.jpg" alt="portfolio item">
+                <figcaption class="port-desc">
+                    <p>Project title</p>
+                    <a href="" class="button button-accent button-small">Project details</a>
+                </figcaption>
+            </figure>
+
+            <!-- portfolio item 02 -->
+            <figure class="port-item">
+                <img src="img/project2.png" alt="portfolio item">
+                <figcaption class="port-desc">
+                    <p>Project title</p>
+                    <a href="" class="button button-accent button-small">Project details</a>
+                </figcaption>
+            </figure>
+
+            <!-- portfolio item 03 -->
+            <figure class="port-item">
+                <img src="img/project3.jpeg" alt="portfolio item">
+                <figcaption class="port-desc">
+                    <p>Project title</p>
+                    <a href="" class="button button-accent button-small">Project details</a>
+                </figcaption>
+            </figure>
+
+            <!-- portfolio item 04 -->
+            <figure class="port-item">
+                <img src="img/project4.jpeg" alt="portfolio item">
+                <figcaption class="port-desc">
+                    <p>Project title</p>
+                    <a href="" class="button button-accent button-small">Project details</a>
+                </figcaption>
+            </figure>
+
+            <!-- portfolio item 05 -->
+            <figure class="port-item">
+                <img src="img/project5.jpeg" alt="portfolio item">
+                <figcaption class="port-desc">
+                    <p>Project title</p>
+                    <a href="" class="button button-accent button-small">Project details</a>
+                </figcaption>
+            </figure>
+
+            <!-- portfolio item 06 -->
+            <figure class="port-item">
+                <img src="img/project6.jpeg" alt="portfolio item">
+                <figcaption class="port-desc">
+                    <p>Project title</p>
+                    <a href="" class="button button-accent button-small">Project details</a>
+                </figcaption>
+            </figure>
+
+        </section>
+    </div>
+
+
+   
+    <!-- ABOUT SECTION -->
+    <div class="section" id="section-about">
+        <section class="about">
+            <h1 class="title title-middle">----- about</h1>
+
+            <!-- portfolio item 01 -->
+            <figure class="about-item">
+                <img src="img/me.JPG" alt="portfolio item">
+                <figcaption class="port-desc">
+                    <p>Do you wish to contat me, please click  </p>
+                    <a href="about.html" class="button button-accent button-small">here</a>
+                </figcaption>
+            </figure>
+
+           <div class="about-text">
+            <p><span>I’m an economist who first got lost in the world of econometrics and then discovered the rise of the amazing universe of data</span></p>
+            
+        </div>
+
+        </section>
+    </div>
+
+
+<!-- CTA SECTION -->
+<div class="section" id="section-cta">
+    <section class="cta">
+        <h1 class="title title-middle">----- contact</h1>
+        <div class="container">
+            <h1 class="title title-cta">Like what you see?
+                <span>then what are you waiting for?</span>
+            </h1>
+            <a href="" class="button button-dark">Hire me</a>
+        </div>
+
+    </section>
+    </div>
+
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="container">
+            <div class="col-3">
+                <p class="title-footer"> I'll put some short text here</p>
+            </div>
+
+            <div class="col-1">
+                <ul class="unstyled-list">
+                    <li><strong>Contact</strong></li>
+                    <li>Where I am</li>
+                    <li>more text</li>
+
+                </ul>
+            </div>
+
+            <div class="col-1">
+                <ul class="unstyled-list">
+                    <li><strong>Contact</strong></li>
+                    <li>Where I am</li>
+                    <li>more text</li>
+
+                </ul>
+            </div>
+
+            <div class="col-1">
+                <ul class="unstyled-list">
+                    <li><strong>Contact</strong></li>
+                    <li>Where I am</li>
+                    <li>more text</li>
+
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
 </html>
